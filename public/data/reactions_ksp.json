@@ -1,0 +1,131 @@
+{
+  "precipitations": [
+    {
+      "id": "AgCl",
+      "name": "Silver Chloride",
+      "formula": "AgCl(s)",
+      "cationId": "Ag+",
+      "cationCoeff": 1,
+      "anionId": "Cl-",
+      "anionCoeff": 1,
+      "ksp": 1.77e-10,
+      "molarMass": 143.318,
+      "enthalpyFormationKjMol": -65.5,
+      "colorHex": "#F8FAFC",
+      "appearance": "White curdy precipitate"
+    },
+    {
+      "id": "AgI",
+      "name": "Silver Iodide",
+      "formula": "AgI(s)",
+      "cationId": "Ag+",
+      "cationCoeff": 1,
+      "anionId": "I-",
+      "anionCoeff": 1,
+      "ksp": 8.52e-17,
+      "molarMass": 234.772,
+      "enthalpyFormationKjMol": -112.2,
+      "colorHex": "#FEF08A",
+      "appearance": "Pale yellow precipitate"
+    },
+    {
+      "id": "PbI2",
+      "name": "Lead(II) Iodide",
+      "formula": "PbI₂(s)",
+      "cationId": "Pb2+",
+      "cationCoeff": 1,
+      "anionId": "I-",
+      "anionCoeff": 2,
+      "ksp": 9.8e-9,
+      "molarMass": 461.008,
+      "enthalpyFormationKjMol": -63.0,
+      "colorHex": "#FACC15",
+      "appearance": "Bright golden yellow crystalline precipitate"
+    },
+    {
+      "id": "Cu(OH)2",
+      "name": "Copper(II) Hydroxide",
+      "formula": "Cu(OH)₂(s)",
+      "cationId": "Cu2+",
+      "cationCoeff": 1,
+      "anionId": "OH-",
+      "anionCoeff": 2,
+      "ksp": 2.2e-20,
+      "molarMass": 97.562,
+      "enthalpyFormationKjMol": -56.4,
+      "colorHex": "#0284C7",
+      "appearance": "Pale blue gelatinous precipitate"
+    },
+    {
+      "id": "Fe(OH)3",
+      "name": "Iron(III) Hydroxide",
+      "formula": "Fe(OH)₃(s)",
+      "cationId": "Fe3+",
+      "cationCoeff": 1,
+      "anionId": "OH-",
+      "anionCoeff": 3,
+      "ksp": 2.79e-39,
+      "molarMass": 106.869,
+      "enthalpyFormationKjMol": -85.0,
+      "colorHex": "#78350F",
+      "appearance": "Reddish-brown flocculent precipitate"
+    },
+    {
+      "id": "Fe(OH)2",
+      "name": "Iron(II) Hydroxide",
+      "formula": "Fe(OH)₂(s)",
+      "cationId": "Fe2+",
+      "cationCoeff": 1,
+      "anionId": "OH-",
+      "anionCoeff": 2,
+      "ksp": 4.87e-17,
+      "molarMass": 89.861,
+      "enthalpyFormationKjMol": -20.5,
+      "colorHex": "#3F6212",
+      "appearance": "Dirty green gelatinous precipitate"
+    },
+    {
+      "id": "BaSO4",
+      "name": "Barium Sulphate",
+      "formula": "BaSO₄(s)",
+      "cationId": "Ba2+",
+      "cationCoeff": 1,
+      "anionId": "SO4_2-",
+      "anionCoeff": 1,
+      "ksp": 1.08e-10,
+      "molarMass": 233.387,
+      "enthalpyFormationKjMol": -26.3,
+      "colorHex": "#F8FAFC",
+      "appearance": "Dense white crystalline precipitate"
+    },
+    {
+      "id": "CaCO3",
+      "name": "Calcium Carbonate",
+      "formula": "CaCO₃(s)",
+      "cationId": "Ca2+",
+      "cationCoeff": 1,
+      "anionId": "CO3_2-",
+      "anionCoeff": 1,
+      "ksp": 3.36e-9,
+      "molarMass": 100.087,
+      "enthalpyFormationKjMol": 12.7,
+      "colorHex": "#F1F5F9",
+      "appearance": "White chalky precipitate"
+    }
+  ],
+  "gasEquilibria": [
+    {
+      "id": "CO2_EVOLUTION",
+      "name": "Carbonate Acid Effervescence",
+      "equation": "2 H⁺(aq) + CO₃²⁻(aq) → H₂O(l) + CO₂(g)",
+      "reactants": [
+        { "ionId": "H+", "coefficient": 2 },
+        { "ionId": "CO3_2-", "coefficient": 1 }
+      ],
+      "gasFormula": "CO₂",
+      "gasMolarMass": 44.01,
+      "henrysLawConstantMolPerLAtm": 0.034,
+      "enthalpyReactionKjMol": -14.8
+    }
+  ]
+}

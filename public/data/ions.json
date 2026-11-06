@@ -1,0 +1,164 @@
+[
+  {
+    "id": "H+",
+    "name": "Hydrogen ion",
+    "formula": "H⁺",
+    "charge": 1,
+    "molarMass": 1.008,
+    "enthalpyGf": 0.0,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "OH-",
+    "name": "Hydroxide ion",
+    "formula": "OH⁻",
+    "charge": -1,
+    "molarMass": 17.008,
+    "enthalpyGf": -229.99,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "Na+",
+    "name": "Sodium ion",
+    "formula": "Na⁺",
+    "charge": 1,
+    "molarMass": 22.99,
+    "enthalpyGf": -240.12,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "K+",
+    "name": "Potassium ion",
+    "formula": "K⁺",
+    "charge": 1,
+    "molarMass": 39.098,
+    "enthalpyGf": -252.38,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "Ag+",
+    "name": "Silver ion",
+    "formula": "Ag⁺",
+    "charge": 1,
+    "molarMass": 107.868,
+    "enthalpyGf": 105.58,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "Cu2+",
+    "name": "Copper(II) ion",
+    "formula": "Cu²⁺",
+    "charge": 2,
+    "molarMass": 63.546,
+    "enthalpyGf": 64.77,
+    "colorRgba": [14, 165, 233, 3.2]
+  },
+  {
+    "id": "Fe2+",
+    "name": "Iron(II) ion",
+    "formula": "Fe²⁺",
+    "charge": 2,
+    "molarMass": 55.845,
+    "enthalpyGf": -89.1,
+    "colorRgba": [132, 204, 22, 1.4]
+  },
+  {
+    "id": "Fe3+",
+    "name": "Iron(III) ion",
+    "formula": "Fe³⁺",
+    "charge": 3,
+    "molarMass": 55.845,
+    "enthalpyGf": -48.5,
+    "colorRgba": [217, 119, 6, 3.6]
+  },
+  {
+    "id": "Zn2+",
+    "name": "Zinc ion",
+    "formula": "Zn²⁺",
+    "charge": 2,
+    "molarMass": 65.38,
+    "enthalpyGf": -153.89,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "Ba2+",
+    "name": "Barium ion",
+    "formula": "Ba²⁺",
+    "charge": 2,
+    "molarMass": 137.327,
+    "enthalpyGf": -537.64,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "Ca2+",
+    "name": "Calcium ion",
+    "formula": "Ca²⁺",
+    "charge": 2,
+    "molarMass": 40.078,
+    "enthalpyGf": -542.83,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "Pb2+",
+    "name": "Lead(II) ion",
+    "formula": "Pb²⁺",
+    "charge": 2,
+    "molarMass": 207.2,
+    "enthalpyGf": -1.7,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "Cl-",
+    "name": "Chloride ion",
+    "formula": "Cl⁻",
+    "charge": -1,
+    "molarMass": 35.45,
+    "enthalpyGf": -167.16,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "NO3-",
+    "name": "Nitrate ion",
+    "formula": "NO₃⁻",
+    "charge": -1,
+    "molarMass": 62.004,
+    "enthalpyGf": -207.36,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "SO4_2-",
+    "name": "Sulphate ion",
+    "formula": "SO₄²⁻",
+    "charge": -2,
+    "molarMass": 96.06,
+    "enthalpyGf": -909.27,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "CO3_2-",
+    "name": "Carbonate ion",
+    "formula": "CO₃²⁻",
+    "charge": -2,
+    "molarMass": 60.009,
+    "enthalpyGf": -677.14,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "I-",
+    "name": "Iodide ion",
+    "formula": "I⁻",
+    "charge": -1,
+    "molarMass": 126.904,
+    "enthalpyGf": -55.19,
+    "colorRgba": [255, 255, 255, 0.0]
+  },
+  {
+    "id": "MnO4-",
+    "name": "Permanganate ion",
+    "formula": "MnO₄⁻",
+    "charge": -1,
+    "molarMass": 118.934,
+    "enthalpyGf": -541.4,
+    "colorRgba": [168, 85, 247, 16.0]
+  }
+]

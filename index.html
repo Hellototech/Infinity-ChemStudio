@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function () {
+        try {
+          var currentFetch = window.fetch ? window.fetch.bind(window) : undefined;
+          var desc =
+            Object.getOwnPropertyDescriptor(window, 'fetch') ||
+            Object.getOwnPropertyDescriptor(Window.prototype, 'fetch');
+          if (!desc || desc.configurable !== false) {
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: true,
+              get: function () {
+                return currentFetch;
+              },
+              set: function (nextFetch) {
+                currentFetch = nextFetch;
+              },
+            });
+          }
+        } catch (_) {
+          // Ignore if environment locks property definition
+        }
+      })();
+    </script>
+    <title>Infinity ChemStudio — Precision 2D Chemistry Sandbox</title>
+    <meta name="description" content="First-principles aqueous chemistry simulation engine and CAD-grade laboratory instrumentation interface with real-time Ksp precipitation, continuous charge-balance pH, Beer-Lambert optical blending, pouring physics, and thermodynamic calorimetry." />
+    <meta property="og:title" content="Infinity ChemStudio — Precision 2D Chemistry Sandbox" />
+    <meta property="og:description" content="First-principles aqueous chemistry simulation engine and CAD-grade laboratory instrumentation interface with real-time Ksp precipitation, continuous charge-balance pH, Beer-Lambert optical blending, pouring physics, and thermodynamic calorimetry." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#090A0C] text-[#ECEFF4] antialiased selection:bg-[#38BDF8]/20 selection:text-[#38BDF8]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

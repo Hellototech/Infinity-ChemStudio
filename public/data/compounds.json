@@ -1,0 +1,305 @@
+[
+  {
+    "id": "HCl",
+    "name": "Hydrochloric Acid",
+    "formula": "HCl",
+    "category": "acid",
+    "stateAt25C": "aqueous",
+    "molarMass": 36.458,
+    "standardEnthalpyHf": -167.16,
+    "defaultMolarity": 1.0,
+    "dissociation": [
+      { "ionId": "H+", "coefficient": 1 },
+      { "ionId": "Cl-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "H2SO4",
+    "name": "Sulphuric Acid",
+    "formula": "H₂SO₄",
+    "category": "acid",
+    "stateAt25C": "aqueous",
+    "molarMass": 98.076,
+    "standardEnthalpyHf": -909.27,
+    "defaultMolarity": 1.0,
+    "dissociation": [
+      { "ionId": "H+", "coefficient": 2 },
+      { "ionId": "SO4_2-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "HNO3",
+    "name": "Nitric Acid",
+    "formula": "HNO₃",
+    "category": "acid",
+    "stateAt25C": "aqueous",
+    "molarMass": 63.012,
+    "standardEnthalpyHf": -207.36,
+    "defaultMolarity": 1.0,
+    "dissociation": [
+      { "ionId": "H+", "coefficient": 1 },
+      { "ionId": "NO3-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "NaOH",
+    "name": "Sodium Hydroxide",
+    "formula": "NaOH",
+    "category": "base",
+    "stateAt25C": "aqueous",
+    "molarMass": 39.998,
+    "standardEnthalpyHf": -470.11,
+    "defaultMolarity": 1.0,
+    "dissociation": [
+      { "ionId": "Na+", "coefficient": 1 },
+      { "ionId": "OH-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "KOH",
+    "name": "Potassium Hydroxide",
+    "formula": "KOH",
+    "category": "base",
+    "stateAt25C": "aqueous",
+    "molarMass": 56.106,
+    "standardEnthalpyHf": -482.37,
+    "defaultMolarity": 1.0,
+    "dissociation": [
+      { "ionId": "K+", "coefficient": 1 },
+      { "ionId": "OH-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "Ba(OH)2",
+    "name": "Barium Hydroxide",
+    "formula": "Ba(OH)₂",
+    "category": "base",
+    "stateAt25C": "aqueous",
+    "molarMass": 171.343,
+    "standardEnthalpyHf": -997.62,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Ba2+", "coefficient": 1 },
+      { "ionId": "OH-", "coefficient": 2 }
+    ]
+  },
+  {
+    "id": "CuSO4",
+    "name": "Copper(II) Sulphate",
+    "formula": "CuSO₄",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 159.606,
+    "standardEnthalpyHf": -844.5,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Cu2+", "coefficient": 1 },
+      { "ionId": "SO4_2-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "FeCl3",
+    "name": "Iron(III) Chloride",
+    "formula": "FeCl₃",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 162.195,
+    "standardEnthalpyHf": -549.98,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Fe3+", "coefficient": 1 },
+      { "ionId": "Cl-", "coefficient": 3 }
+    ]
+  },
+  {
+    "id": "FeSO4",
+    "name": "Iron(II) Sulphate",
+    "formula": "FeSO₄",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 151.905,
+    "standardEnthalpyHf": -998.37,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Fe2+", "coefficient": 1 },
+      { "ionId": "SO4_2-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "AgNO3",
+    "name": "Silver Nitrate",
+    "formula": "AgNO₃",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 169.872,
+    "standardEnthalpyHf": -101.78,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Ag+", "coefficient": 1 },
+      { "ionId": "NO3-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "NaCl",
+    "name": "Sodium Chloride",
+    "formula": "NaCl",
+    "category": "salt",
+    "stateAt25C": "solid",
+    "molarMass": 58.44,
+    "standardEnthalpyHf": -407.27,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Na+", "coefficient": 1 },
+      { "ionId": "Cl-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "KI",
+    "name": "Potassium Iodide",
+    "formula": "KI",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 166.002,
+    "standardEnthalpyHf": -307.57,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "K+", "coefficient": 1 },
+      { "ionId": "I-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "Pb(NO3)2",
+    "name": "Lead(II) Nitrate",
+    "formula": "Pb(NO₃)₂",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 331.208,
+    "standardEnthalpyHf": -416.42,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Pb2+", "coefficient": 1 },
+      { "ionId": "NO3-", "coefficient": 2 }
+    ]
+  },
+  {
+    "id": "Na2CO3",
+    "name": "Sodium Carbonate",
+    "formula": "Na₂CO₃",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 105.989,
+    "standardEnthalpyHf": -1157.38,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Na+", "coefficient": 2 },
+      { "ionId": "CO3_2-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "CaCl2",
+    "name": "Calcium Chloride",
+    "formula": "CaCl₂",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 110.978,
+    "standardEnthalpyHf": -877.15,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Ca2+", "coefficient": 1 },
+      { "ionId": "Cl-", "coefficient": 2 }
+    ]
+  },
+  {
+    "id": "BaCl2",
+    "name": "Barium Chloride",
+    "formula": "BaCl₂",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 208.227,
+    "standardEnthalpyHf": -871.96,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Ba2+", "coefficient": 1 },
+      { "ionId": "Cl-", "coefficient": 2 }
+    ]
+  },
+  {
+    "id": "Na2SO4",
+    "name": "Sodium Sulphate",
+    "formula": "Na₂SO₄",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 142.04,
+    "standardEnthalpyHf": -1389.51,
+    "defaultMolarity": 0.1,
+    "dissociation": [
+      { "ionId": "Na+", "coefficient": 2 },
+      { "ionId": "SO4_2-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "KMnO4",
+    "name": "Potassium Permanganate",
+    "formula": "KMnO₄",
+    "category": "salt",
+    "stateAt25C": "aqueous",
+    "molarMass": 158.032,
+    "standardEnthalpyHf": -793.78,
+    "defaultMolarity": 0.05,
+    "dissociation": [
+      { "ionId": "K+", "coefficient": 1 },
+      { "ionId": "MnO4-", "coefficient": 1 }
+    ]
+  },
+  {
+    "id": "phenolphthalein",
+    "name": "Phenolphthalein Indicator",
+    "formula": "C₂₀H₁₄O₄",
+    "category": "indicator",
+    "stateAt25C": "liquid",
+    "molarMass": 318.32,
+    "standardEnthalpyHf": 0.0,
+    "defaultMolarity": 0.01,
+    "dissociation": [],
+    "indicatorSpec": {
+      "pKa": 9.3,
+      "transitionRange": [8.2, 10.0],
+      "acidColorRgba": [255, 255, 255, 0.0],
+      "baseColorRgba": [236, 72, 153, 0.78]
+    }
+  },
+  {
+    "id": "methyl_orange",
+    "name": "Methyl Orange Indicator",
+    "formula": "C₁₄H₁₄N₃NaO₃S",
+    "category": "indicator",
+    "stateAt25C": "liquid",
+    "molarMass": 327.33,
+    "standardEnthalpyHf": 0.0,
+    "defaultMolarity": 0.01,
+    "dissociation": [],
+    "indicatorSpec": {
+      "pKa": 3.47,
+      "transitionRange": [3.1, 4.4],
+      "acidColorRgba": [239, 68, 68, 0.75],
+      "baseColorRgba": [250, 204, 21, 0.65]
+    }
+  },
+  {
+    "id": "universal",
+    "name": "Universal pH Indicator",
+    "formula": "Ind(aq)",
+    "category": "indicator",
+    "stateAt25C": "liquid",
+    "molarMass": 300.0,
+    "standardEnthalpyHf": 0.0,
+    "defaultMolarity": 0.01,
+    "dissociation": [],
+    "indicatorSpec": {
+      "pKa": 7.0,
+      "transitionRange": [1.0, 13.0],
+      "acidColorRgba": [239, 68, 68, 0.75],
+      "baseColorRgba": [139, 92, 246, 0.78]
+    }
+  }
+]

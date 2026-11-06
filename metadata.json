@@ -1,0 +1,6 @@
+{
+  "name": "ChemStudio — Precision 2D Chemistry Sandbox",
+  "description": "First-principles aqueous chemistry simulation engine and CAD-grade laboratory instrumentation interface with real-time Ksp precipitation, continuous charge-balance pH, Beer-Lambert optical blending, and thermodynamic calorimetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,57 @@
+{
+  "beaker_250": {
+    "id": "beaker_250",
+    "name": "250 mL Borosilicate Beaker",
+    "category": "beaker",
+    "width": 80,
+    "height": 110,
+    "maxVolumeMl": 250,
+    "wallThickness": 3,
+    "basePourAngleDeg": 38,
+    "spoutOffsetLeft": [-40, -55],
+    "spoutOffsetRight": [40, -55],
+    "thermalConductivity": 0.85
+  },
+  "erlenmeyer_250": {
+    "id": "erlenmeyer_250",
+    "name": "250 mL Conical Flask",
+    "category": "flask",
+    "width": 90,
+    "baseWidth": 90,
+    "neckWidth": 34,
+    "height": 125,
+    "maxVolumeMl": 250,
+    "wallThickness": 3,
+    "basePourAngleDeg": 45,
+    "spoutOffsetLeft": [-17, -62],
+    "spoutOffsetRight": [17, -62],
+    "thermalConductivity": 0.80
+  },
+  "test_tube_50": {
+    "id": "test_tube_50",
+    "name": "50 mL Culture Test Tube",
+    "category": "test_tube",
+    "width": 24,
+    "height": 100,
+    "maxVolumeMl": 50,
+    "wallThickness": 2,
+    "basePourAngleDeg": 32,
+    "spoutOffsetLeft": [-12, -50],
+    "spoutOffsetRight": [12, -50],
+    "thermalConductivity": 0.92
+  },
+  "burette_50": {
+    "id": "burette_50",
+    "name": "50 mL Class-A Precision Burette",
+    "category": "burette",
+    "width": 16,
+    "height": 220,
+    "maxVolumeMl": 50,
+    "wallThickness": 2,
+    "basePourAngleDeg": 90,
+    "spoutOffsetLeft": [-8, -110],
+    "spoutOffsetRight": [8, -110],
+    "stopcockMaxFlowMlPerSec": 2.5,
+    "thermalConductivity": 0.50
+  }
+}
